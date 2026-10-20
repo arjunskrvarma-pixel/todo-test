@@ -1,0 +1,12 @@
+Build a simple todo web app (HTML + JavaScript, no backend).
+
+- Users can add a new task.
+- Users can mark a task as completed.
+- Users can delete a task.
+- Tasks are saved in the browser so they survive a page reload.
+- Users can filter tasks by All, Active and Completed.
+- Users can edit the title of an existing task.
+- Each task can have a due date, and overdue tasks are highlighted.
+- Users can export their tasks as a CSV file.
+- Task titles must be displayed safely so user input can never run as HTML or script.
+- Users can switch between light and dark mode.

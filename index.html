@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tiny Todo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 520px; margin: 40px auto; padding: 0 16px; }
+    li { display: flex; gap: 8px; align-items: center; padding: 4px 0; }
+    li.done span { text-decoration: line-through; color: #888; }
+  </style>
+</head>
+<body>
+  <h1>Tiny Todo</h1>
+  <form id="add-form">
+    <input id="task-input" placeholder="New task" required>
+    <button type="submit">Add</button>
+  </form>
+  <div>
+    <button data-filter="all">All</button>
+    <button data-filter="active">Active</button>
+    <button id="export-btn">Export</button>
+  </div>
+  <ul id="task-list"></ul>
+  <script src="app.js"></script>
+</body>
+</html>
